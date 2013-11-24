@@ -5,7 +5,4 @@ class Raffler.Collections.Entries extends Backbone.Collection
 
   drawWinner: ->
     winner = @shuffle()[0]
-    if winner
-      winner.set(winner: true)
-      winner.save()
-      winner.trigger('highlight')
+    winner.win() if winner

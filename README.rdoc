@@ -1,2 +1,2 @@
-Railscasts #324 and #325
+Railscasts #323 and #325
 Backbone app
